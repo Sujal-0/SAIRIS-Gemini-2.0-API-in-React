@@ -1,0 +1,39 @@
+/* Footer.css */
+
+.footer {
+    background-color: #e9d8fd; /* Same color as the header */
+    color: #4a5568; /* Text color to match the theme */
+    text-align: center;
+    padding: 12px;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    font-size: .8rem;
+    font-weight: 600;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+
+}
+
+.footer span {
+    color: #2b2335; /* Choose a different color for 'AI' */
+    animation: color-change 3s infinite;
+    text-shadow: 2px 2px 4px #816e9b;
+}
+
+@keyframes color-change {
+    0% {
+        color: #2b2335;
+    }
+    25% {
+        color: #816e9b;
+    }
+    50% {
+        color: #9B7EBD;
+    }
+    100% {
+        color: #2b2335;
+    }
+}
+
+
